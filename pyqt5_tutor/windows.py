@@ -1,5 +1,10 @@
-
+"""
+windows collection
+"""
+import logging
 from PyQt5 import QtWidgets
+
+logger = logging.getLogger(__name__)
 
 
 class MainWindow(QtWidgets.QWidget):
