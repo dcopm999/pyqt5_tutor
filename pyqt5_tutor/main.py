@@ -1,9 +1,15 @@
 """Console script for pyqt5_tutor."""
-import argparse
 import sys
+import argparse
+import logging
+import logging.config
 from PyQt5 import QtWidgets
 
+from pyqt5_tutor.settings import LOGGER
 from pyqt5_tutor.windows import MainWindow
+
+logging.config.dictConfig(LOGGER)
+logger = logging.getLogger(__name__)
 
 
 def main():

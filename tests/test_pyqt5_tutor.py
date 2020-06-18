@@ -5,9 +5,6 @@
 import pytest
 
 
-from pyqt5_tutor import pyqt5_tutor
-
-
 @pytest.fixture
 def response():
     """Sample pytest fixture.
