@@ -1,6 +1,9 @@
 # Config file for automatic testing at travis-ci.com
 
 language: python
+
+dist: buster
+
 python:
   - 3.8
   - 3.7
